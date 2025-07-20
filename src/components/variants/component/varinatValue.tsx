@@ -59,7 +59,7 @@ export function VariantValue({ data: variant }: { data: IVariants[] }) {
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2">
             {activeVariant?.values?.map((value, index) => (
               <li className="font-normal" key={index}>
-                {value.title[i18n.language]}
+                {value?.title?.[i18n.language]}
               </li>
             ))}
           </div>

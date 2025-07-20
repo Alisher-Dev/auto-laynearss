@@ -20,10 +20,15 @@ export function AttributeVariant({
       model
         .find((m) => m.id === +id)
         .variants.map((vari) =>
-          vari.values.map((value) =>
-            setAttribute((att) => [...att, value.attribute])
-          )
-        ); // attribute by model
+          vari.values.map((value) => {
+            if (value) {
+              setAttribute((att) => {
+                if (att.find((a) => a?.id === value?.attribute?.id)) return att;
+                return [...att, value?.attribute];
+              });
+            }
+          })
+        );
     }
   }, [id]);
 
@@ -36,11 +41,11 @@ export function AttributeVariant({
               type="checkbox"
               id={`checkbox-${index}`}
               className="size-4.5"
-              onChange={(e) => handleAttribute(e, att.id)}
-              checked={ids.includes(att.id)}
+              onChange={(e) => handleAttribute(e, att?.id)}
+              checked={ids.includes(att?.id)}
             />
             <label htmlFor={`checkbox-${index}`} className="font-medium">
-              {att.name[i18n.language]}
+              {att?.name?.[i18n.language]}
             </label>
           </span>
         ))}

@@ -36,7 +36,7 @@ export function Variant() {
 
     // 🔎 Фильтруем варианты, у которых есть хотя бы один аттрибут из выбранных
     const filtered = modelItem.variants.filter((variant) =>
-      variant.values.some((value) => ids.includes(value.attribute.id))
+      variant.values.some((value) => ids.includes(value?.attribute?.id))
     );
 
     // 🧼 Убираем дубли по id варианта
