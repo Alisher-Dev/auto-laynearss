@@ -6,18 +6,19 @@ import ru from "./locales/ru.json";
 import uz from "./locales/uz.json";
 
 i18n
-	.use(LanguageDetector)
-	.use(initReactI18next)
-	.init({
-		resources: {
-			ru: { translation: ru },
-			uz: { translation: uz },
-		},
-		fallbackLng: "uz",
-		debug: false,
-		interpolation: {
-			escapeValue: false,
-		},
-	});
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: {
+      ru: { translation: ru },
+      uz: { translation: uz },
+    },
+    defaultNS: "uz",
+    fallbackLng: "uz",
+    debug: false,
+    interpolation: {
+      escapeValue: false,
+    },
+  });
 
 export default i18n;
