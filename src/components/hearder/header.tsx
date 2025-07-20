@@ -79,8 +79,8 @@ export function Header() {
             </Button>
           </span>
           <Select
-            defaultValue={i18n.language}
-            onValueChange={(item) => i18n.changeLanguage(item)}
+            defaultValue={i18n.language ?? "uz"}
+            onValueChange={(item) => i18n.changeLanguage(item ?? "uz")}
           >
             <SelectTrigger className="w-[90px]">
               <SelectValue placeholder="language" />
