@@ -736,12 +736,47 @@ export const specialOffers: ISpecialOffer[] = [
     id: 1,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
-    name: { uz: "Chegirma", ru: "Скидка" },
+    name: { uz: "Yozgi chegirma", ru: "Летняя скидка" },
     description: {
-      uz: "Matiz uchun yozgi chegirma!",
-      ru: "Летняя скидка на Matiz!",
+      uz: "Yoz mavsumida Spark va Nexia uchun maxsus narxlar!",
+      ru: "Специальные цены на Spark и Nexia этим летом!",
     },
-    image: "https://daryo.uz/static/2021/07/medium-680x453-1.jpg",
-    content: { uz: "Aksiya", ru: "Акция" },
+    image:
+      "https://www.autostrada.uz/wp-content/uploads/2020/10/photo_2020-10-05_18-54-27.jpg",
+    content: {
+      uz: "<p><strong>Chevrolet Spark</strong> va <strong>Nexia</strong> modellari uchun <span style='color:green;'>10% gacha chegirma</span>!</p><p>Yozning issiq kunlarida avtomobil xarid qilish uchun ayni vaqt!</p>",
+      ru: "<p><strong>Chevrolet Spark</strong> и <strong>Nexia</strong> — <span style='color:green;'>скидка до 10%</span> этим летом!</p><p>Лето — лучшее время для покупки машины!</p>",
+    },
+  },
+  {
+    id: 2,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    name: { uz: "Rassrochka 0%", ru: "Рассрочка 0%" },
+    description: {
+      uz: "Cobalt va Gentra uchun foizsiz to‘lov imkoniyati!",
+      ru: "Беспроцентная рассрочка на Cobalt и Gentra!",
+    },
+    image:
+      "https://www.autostrada.uz/wp-content/uploads/2018/04/Gentra-vs-Cobalt.jpg.webp",
+    content: {
+      uz: "<p><strong>Cobalt</strong> va <strong>Gentra</strong> xarid qilganlarga <span style='color:blue;'>12 oygacha 0% to‘lov</span> imkoniyati!</p><p>Banklarsiz va ortiqcha hujjatlarsiz!</p>",
+      ru: "<p><strong>Cobalt</strong> и <strong>Gentra</strong> — <span style='color:blue;'>рассрочка до 12 месяцев без переплаты</span>!</p><p>Никаких банков и лишней бумажной волокиты!</p>",
+    },
+  },
+  {
+    id: 3,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    name: { uz: "Qishgi tayyorgarlik", ru: "Подготовься к зиме" },
+    description: {
+      uz: "Lacetti uchun bepul texnik ko‘rik va sovg‘alar!",
+      ru: "Бесплатная диагностика и подарки для владельцев Lacetti!",
+    },
+    image: "https://a.d-cd.net/f57eae6s-960.jpg",
+    content: {
+      uz: "<p><strong>Lacetti</strong> egalari uchun <span style='color:#d35400;'>bepul texnik ko‘rik</span>!</p><p>Qishda xavfsiz yurish uchun mashinangizni tayyorlab oling. Sovg‘alar va bonuslar kutmoqda!</p>",
+      ru: "<p><strong>Lacetti</strong> — <span style='color:#d35400;'>бесплатная диагностика</span> перед зимой!</p><p>Готовь машину к холодам и получи приятные бонусы!</p>",
+    },
   },
 ];

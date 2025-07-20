@@ -50,7 +50,7 @@ export function CarouselAvto({ cars }: { cars: IModel[] }) {
               {cars?.map((car, index) => (
                 <CarouselItem
                   key={index}
-                  className="basis-1/1 sm:basis-1/3 md:basis-1/5 xl:basis-1/9 relative"
+                  className="basis-1/1 sm:basis-1/3 md:basis-1/5 xl:basis-1/9 p-0 relative"
                 >
                   <div
                     onClick={() => handleColor(car)}

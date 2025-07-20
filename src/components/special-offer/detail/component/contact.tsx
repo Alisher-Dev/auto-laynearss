@@ -36,7 +36,7 @@ export function ContactOffer({ content }: { content: IContent }) {
 
             <Button
               variant="default"
-              className="h-auto px-10 py-4"
+              className="h-auto px-10 py-4 mt-5"
               onClick={() => navigate("/contact-us")}
             >
               {t("contact-us")}
