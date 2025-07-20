@@ -13,7 +13,7 @@ i18n
       ru: { translation: ru },
       uz: { translation: uz },
     },
-    defaultNS: "uz",
+    lng: "uz", // 👉 Насильная установка языка
     fallbackLng: "uz",
     debug: false,
     interpolation: {
