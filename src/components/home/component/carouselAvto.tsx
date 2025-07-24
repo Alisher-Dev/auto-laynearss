@@ -92,7 +92,7 @@ export function CarouselAvto({ cars }: { cars: IModel[] }) {
                 {activeCar.name[i18n.language]}
               </p>
               <p className="text-lg font-medium text-gray-800 text-center">
-                {activeCar.variants[0].price.toLocaleString() + " " + t("usz")}
+                {activeCar.variants[0]?.price.toLocaleString() + " " + t("usz")}
               </p>
               <Button
                 className="block mx-auto mt-5 font-medium text-lg h-auto"
