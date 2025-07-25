@@ -50,12 +50,12 @@ export function CarouselAvto({ cars }: { cars: IModel[] }) {
               {cars?.map((car, index) => (
                 <CarouselItem
                   key={index}
-                  className="basis-1/1 sm:basis-1/3 md:basis-1/5 xl:basis-1/9 p-0 relative"
+                  className="basis-1/1 sm:basis-1/3 md:basis-1/5 xl:basis-1/7 p-0 relative"
                 >
                   <div
                     onClick={() => handleColor(car)}
                     className={cn(
-                      "p-1 rounded-2xl hover:bg-gray-200 transition-all cursor-pointer",
+                      "p-4 rounded-2xl hover:bg-gray-200 transition-all mx-2 cursor-pointer",
                       activeCar?.id === car.id && "bg-gray-200"
                     )}
                   >
@@ -63,7 +63,7 @@ export function CarouselAvto({ cars }: { cars: IModel[] }) {
                       src={car.colors?.[0].image?.[0]}
                       alt={`car-${index}`}
                       loading="lazy"
-                      className="w-full h-[100px] object-contain"
+                      className="w-full h-[80px] object-contain"
                     />
                   </div>
                 </CarouselItem>

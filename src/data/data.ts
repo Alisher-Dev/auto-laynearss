@@ -586,25 +586,6 @@ export const allColors: IColors[] = [
     name: { uz: "Moviy", ru: "Синий" },
     value: "#0000FF",
   },
-  // Lacetti/Gentra (modelId: 4)
-  {
-    id: 7,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    image: ["https://chevrolet.uz/assets/images/lacetti/colors/1.png"],
-    modelId: 4,
-    name: { uz: "Qora", ru: "Черный" },
-    value: "#000000",
-  },
-  {
-    id: 8,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    image: ["https://chevrolet.uz/assets/images/lacetti/colors/4.png"],
-    modelId: 4,
-    name: { uz: "Kulrang", ru: "Мокрый асфальт" },
-    value: "#5A5A5A",
-  },
   // Onix (modelId: 5)
   {
     id: 9,
@@ -814,27 +795,6 @@ export const allVariants: IVariants[] = [
       allValues[17],
       allValues[18],
       allValues[19],
-    ],
-  },
-  // Lacetti/Gentra (modelId: 4)
-  {
-    id: 7,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    modelId: 4,
-    title: { uz: "L-Style AT", ru: "L-Style AT" },
-    description: {
-      uz: "Klassik dizayn va qulaylik",
-      ru: "Классический дизайн и комфорт",
-    },
-    discount: 0,
-    price: 155000000,
-    values: [
-      allValues[22],
-      allValues[23],
-      allValues[24],
-      allValues[25],
-      allValues[26],
     ],
   },
   // Onix (modelId: 5)
@@ -1133,36 +1093,6 @@ export const model: IModel[] = [
     videos: ["cobalt.mp4"],
     colors: allColors.filter((c) => c.modelId === 3),
     variants: allVariants.filter((v) => v.modelId === 3),
-  },
-  {
-    id: 4,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Chevrolet Lacetti / Gentra", ru: "Шевроле Лачетти / Джентра" },
-    description: {
-      uz: "Klassik va qulay sedan",
-      ru: "Классический и комфортный седан",
-    },
-    content: {
-      uz: `<h3>Chevrolet Lacetti / Gentra: Elegentlik va Ishonchning Murosasiz Muvofiqligi</h3>
-           <h4>Vaqt Sinovidan O'tgan Dizayn</h4>
-           <p>Chevrolet Lacetti/Gentra – bu klassik dizayn va zamonaviy funksionallikni o'zida mujassam etgan avtomobil. Uning oqlangan chiziqlari va muvozanatli proporsiyalari hech qachon urfdan qolmaydi. Bu avtomobil o'zining mustahkamligi va ishonchliligi bilan tanilgan bo'lib, yillar davomida o'z sohibiga sodiqlik bilan xizmat qiladi. Gentra – bu nafaqat transport vositasi, balki o'z qadr-qimmatini biladigan insonlar uchun uslub timsolidir. Uning dizayni o'ziga ishonchni aks ettiradi va har qanday vaziyatda munosib ko'rinadi.</p>
-           <h4>Ichki Qulaylik va Kenglik</h4>
-           <p>Lacetti/Gentra saloniga kirganingizda, sizni kenglik va o'ylangan ergonomika kutib oladi. Qulay o'rindiqlar va sifatli materiallar uzoq safarlarda ham charchoqni his qilmaslikka yordam beradi. Boshqaruv elementlarining qulay joylashuvi haydovchiga to'liq nazoratni his qilish imkonini beradi. Keng orqa o'rindiqlar yo'lovchilar uchun yetarli joy ta'minlaydi, 405 litrli yukxona esa kundalik vazifalar uchun ham, sayohatlar uchun ham juda mos keladi. Bu yerda har bir detal sizning qulayligingiz uchun yaratilgan.</p>
-           <h4>Chidamlilik va Oson Xizmat Ko'rsatish</h4>
-           <p>Lacetti/Gentra o'zining chidamliligi va texnik xizmat ko'rsatishdagi oddiyligi bilan shuhrat qozongan. Sinovdan o'tgan 1.5 litrli dvigatel va ishonchli transmissiya tizimi ko'p yillar davomida barqaror ishlashni kafolatlaydi. Ehtiyot qismlarning arzonligi va keng tarqalganligi avtomobilni saqlash xarajatlarini sezilarli darajada kamaytiradi. Shu sababli Lacetti/Gentra o'z byudjetini oqilona boshqaradigan va avtomobildan uzoq muddatli foydalanishni rejalashtirganlar uchun eng yaxshi tanlovlardan biridir.</p>`,
-      ru: `<h3>Chevrolet Lacetti / Gentra: Бескомпромиссное Сочетание Элегантности и Надежности</h3>
-           <h4>Дизайн, Проверенный Временем</h4>
-           <p>Chevrolet Lacetti/Gentra – это автомобиль, в котором гармонично сочетаются классический дизайн и современная функциональность. Его элегантные линии и сбалансированные пропорции никогда не выходят из моды. Этот автомобиль известен своей прочностью и надежностью, он верно служит своему владельцу на протяжении многих лет. Gentra – это не просто средство передвижения, а символ стиля для тех, кто ценит качество и уверенность. Его дизайн отражает статус и выглядит достойно в любой ситуации.</p>
-           <h4>Комфорт и Простор в Салоне</h4>
-           <p>Попадая в салон Lacetti/Gentra, вы ощущаете простор и продуманную эргономику. Удобные сиденья и качественные отделочные материалы способствуют комфорту даже в самых длительных поездках. Удобное расположение элементов управления позволяет водителю чувствовать полный контроль над автомобилем. Просторный задний ряд сидений обеспечивает достаточно места для пассажиров, а багажник объемом 405 литров идеально подходит как для повседневных задач, так и для путешествий. Здесь каждая деталь создана для вашего удобства.</p>
-           <h4>Долговечность и Простота Обслуживания</h4>
-           <p>Lacetti/Gentra славится своей долговечностью и неприхотливостью в обслуживании. Проверенный временем 1.5-литровый двигатель и надежная трансмиссия гарантируют стабильную работу на протяжении многих лет. Доступность и невысокая стоимость запасных частей значительно снижают расходы на содержание автомобиля. Именно поэтому Lacetti/Gentra является одним из лучших выборов для тех, кто рационально подходит к своему бюджету и планирует долгосрочную эксплуатацию автомобиля.</p>`,
-    },
-    banner: "https://stat.uz/images/sanoat-15_12_2021-ichi.jpg",
-    videos: ["lacetti.mp4"],
-    colors: allColors.filter((c) => c.modelId === 4),
-    variants: allVariants.filter((v) => v.modelId === 4),
   },
   {
     id: 5,
