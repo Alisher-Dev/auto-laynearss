@@ -126,49 +126,6 @@ export const allValues: IValues[] = [
     title: { uz: "9.5 soniya", ru: "9.5 сек" },
     attribute: allAttributes[7],
   },
-  // Nexia 3 (modelId: 2)
-  {
-    id: 9,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "1.5L S-TEC III", ru: "1.5Л S-TEC III" },
-    attribute: allAttributes[0],
-  },
-  {
-    id: 10,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "179 km/soat", ru: "179 км/ч" },
-    attribute: allAttributes[1],
-  },
-  {
-    id: 11,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "6-pog'onali avtomat", ru: "6-ступ. автомат" },
-    attribute: allAttributes[2],
-  },
-  {
-    id: 12,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "107 o.k.", ru: "107 л.с." },
-    attribute: allAttributes[6],
-  },
-  {
-    id: 13,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "Aralash: 7.0 L", ru: "Смешанный: 7.0 Л" },
-    attribute: allAttributes[3],
-  },
-  {
-    id: 14,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "5-pog'onali mexanika", ru: "5-ступ. механика" },
-    attribute: allAttributes[2],
-  },
 
   // Cobalt (modelId: 3)
   {
@@ -226,43 +183,6 @@ export const allValues: IValues[] = [
     updatedAt: new Date().toISOString(),
     title: { uz: "11.7 soniya", ru: "11.7 сек" },
     attribute: allAttributes[7],
-  },
-
-  // Lacetti/Gentra (modelId: 4)
-  {
-    id: 23,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "1.5L DOHC", ru: "1.5Л DOHC" },
-    attribute: allAttributes[0],
-  },
-  {
-    id: 24,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "180 km/soat", ru: "180 км/ч" },
-    attribute: allAttributes[1],
-  },
-  {
-    id: 25,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "107 o.k.", ru: "107 л.с." },
-    attribute: allAttributes[6],
-  },
-  {
-    id: 26,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "405 L", ru: "405 Л" },
-    attribute: allAttributes[4],
-  },
-  {
-    id: 27,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    title: { uz: "6-pog'onali avtomat", ru: "6-ступ. автомат" },
-    attribute: allAttributes[2],
   },
 
   // Onix (modelId: 5)
@@ -544,29 +464,6 @@ export const allColors: IColors[] = [
     name: { uz: "Qizil", ru: "Красный" },
     value: "#FF0000",
   },
-  // Nexia 3 (modelId: 2)
-  {
-    id: 3,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    image: [
-      "https://chelyabinsk.ruautoshop.com/auto/images/000001213975ddb2d345.png",
-    ],
-    modelId: 2,
-    name: { uz: "Kulrang", ru: "Серый" },
-    value: "#808080",
-  },
-  {
-    id: 4,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    image: [
-      "https://avtotexxizmat.uz/uploads/car-color/KK/KK/KA/1635147517.png",
-    ],
-    modelId: 2,
-    name: { uz: "Qora", ru: "Черный" },
-    value: "#000000",
-  },
   // Cobalt (modelId: 3)
   {
     id: 5,
@@ -723,41 +620,6 @@ export const allVariants: IVariants[] = [
       allValues[5],
     ],
   },
-  // Nexia 3 (modelId: 2)
-  {
-    id: 3,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    modelId: 2,
-    title: { uz: "LS MT", ru: "LS MT" },
-    description: {
-      uz: "Oddiy komplektatsiya mexanikada",
-      ru: "Простая комплектация на механике",
-    },
-    discount: 0,
-    price: 119000000,
-    values: [allValues[8], allValues[11], allValues[13]],
-  },
-  {
-    id: 4,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    modelId: 2,
-    title: { uz: "LTZ AT", ru: "LTZ AT" },
-    description: {
-      uz: "Konditsionerli avtomat komplektatsiya",
-      ru: "Комплектация с кондиционером и автоматом",
-    },
-    discount: 0,
-    price: 127000000,
-    values: [
-      allValues[8],
-      allValues[9],
-      allValues[10],
-      allValues[11],
-      allValues[12],
-    ],
-  },
   // Cobalt (modelId: 3)
   {
     id: 5,
@@ -909,13 +771,13 @@ export const allVariants: IVariants[] = [
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     modelId: 8,
-    title: { uz: "DLX", ru: "DLX" },
+    title: { uz: "D2 STYLE  PLUS", ru: "D2 STYLE  PLUS" },
     description: {
       uz: "7 o'rinli yo'lovchi versiyasi",
       ru: "Пассажирская версия на 7 мест",
     },
     discount: 0,
-    price: 93000000,
+    price: 96932000,
     values: [
       allValues[45],
       allValues[46],
@@ -1031,37 +893,6 @@ export const model: IModel[] = [
     videos: ["spark.mp4"],
     colors: allColors.filter((c) => c.modelId === 1),
     variants: allVariants.filter((v) => v.modelId === 1),
-  },
-  {
-    id: 2,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Chevrolet Nexia 3", ru: "Шевроле Нексия 3" },
-    description: {
-      uz: "Ishonchli va hamyonbop sedan",
-      ru: "Надежный и доступный седан",
-    },
-    content: {
-      uz: `<h3>Chevrolet Nexia 3: Vaqt Sinovidan O'tgan Ishonch</h3>
-           <h4>Praktiklik va Chidamlilik</h4>
-           <p>Chevrolet Nexia 3 – bu har qanday yo'l sharoitida o'zini oqlagan ishonchli va amaliy sedandir. Uning asosiy afzalligi – mustahkam va chidamli konstruksiyasi bo'lib, u ko'p yillar davomida xizmat qilishga mo'ljallangan. 1.5 litrli dvigatel (107 ot kuchi) shahar sharoitida ham, uzoq masofalarga sayohat qilganda ham yetarli quvvat va tejamkorlikni ta'minlaydi. Nexia 3 ning mustahkam podveskasi notekis yo'llarni osonlik bilan yengadi, bu esa uni universal tanlovga aylantiradi.</p>
-           <h4>Keng va Qulay Salon</h4>
-           <p>Nexia 3 o'zining segmenti uchun keng salonni taklif etadi. Ergonomik tarzda ishlab chiqilgan old panel va qulay o'rindiqlar haydovchi va yo'lovchilar uchun maksimal darajada qulaylik yaratadi. Zamonaviy audiotizim (Bluetooth va AUX-port bilan) sayohat paytida zerikishga yo'l qo'ymaydi. 400 litrli keng yukxona kundalik ehtiyojlar va oilaviy sayohatlar uchun yetarli joyni ta'minlaydi, bu esa Nexia 3 ni nafaqat shaxsiy, balki oilaviy avtomobil sifatida ham jozibador qiladi.</p>
-           <h4>Hamyonboplik va Xizmat Ko'rsatish Qulayligi</h4>
-           <p>Nexia 3 o'zining hamyonbop narxi va arzon texnik xizmat ko'rsatishi bilan ajralib turadi. Ehtiyot qismlarning mavjudligi va oddiy konstruksiyasi tufayli avtomobilga xizmat ko'rsatish ko'p xarajat talab qilmaydi, bu esa uni o'z byudjetini qadrlaydiganlar uchun oqilona tanlovga aylantiradi. Ishonchli dvigatel va mustahkam transmissiya uzoq muddatli va muammosiz foydalanishni kafolatlaydi, bu esa Nexia 3 ning taksi haydovchilari va tadbirkorlar orasida mashhurligining asosiy sabablaridan biridir.</p>`,
-      ru: `<h3>Chevrolet Nexia 3: Надежность, Проверенная Временем</h3>
-           <h4>Практичность и Выносливость</h4>
-           <p>Chevrolet Nexia 3 – это надежный и практичный седан, который зарекомендовал себя в любых дорожных условиях. Его главное преимущество – прочная и выносливая конструкция, рассчитанная на долгие годы службы. Двигатель объемом 1.5 литра (107 л.с.) обеспечивает оптимальное сочетание мощности и экономичности как в городе, так и в дальних поездках. Крепкая подвеска Nexia 3 легко справляется с неровностями дорог, что делает этот автомобиль универсальным выбором для различных условий эксплуатации.</p>
-           <h4>Просторный и Комфортабельный Салон</h4>
-           <p>Nexia 3 предлагает удивительно просторный для своего класса салон. Эргономично спроектированная приборная панель и удобные сиденья создают комфортные условия для водителя и пассажиров. Современная аудиосистема с поддержкой Bluetooth и AUX позволяет наслаждаться музыкой в дороге. Вместительный багажник объемом 400 литров обеспечивает достаточно места для повседневных нужд и семейных путешествий, делая Nexia 3 привлекательным выбором не только для личного пользования, но и в качестве семейного автомобиля.</p>
-           <h4>Доступность и Простота в Обслуживании</h4>
-           <p>Nexia 3 выделяется своей доступной ценой и низкой стоимостью владения. Благодаря простоте конструкции и доступности запчастей, обслуживание автомобиля не требует больших затрат, что делает его разумным выбором для тех, кто ценит свой бюджет. Надежный двигатель и прочная трансмиссия гарантируют долгую и беспроблемную эксплуатацию, что является одной из причин популярности Nexia 3 среди таксистов и предпринимателей.</p>`,
-    },
-    banner:
-      "https://www.autostrada.uz/wp-content/uploads/2018/09/Avtosalon-GM-Uzbekistan-v-Tashkente-Ofijialnyj-diler-GM-telefony-i-dogovora.jpg",
-    videos: ["nexia.mp4"],
-    colors: allColors.filter((c) => c.modelId === 2),
-    variants: allVariants.filter((v) => v.modelId === 2),
   },
   {
     id: 3,
@@ -1285,47 +1116,98 @@ export const specialOffers: ISpecialOffer[] = [
     id: 1,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
-    name: { uz: "Yozgi chegirma", ru: "Летняя скидка" },
+    name: {
+      uz: "D2 STYLE PLUS kredit dasturi",
+      ru: "Кредитная программа на D2 STYLE PLUS",
+    },
     description: {
-      uz: "Yoz mavsumida Spark va Nexia uchun maxsus narxlar!",
-      ru: "Специальные цены на Spark и Nexia этим летом!",
+      uz: "Yangi D2 STYLE PLUS avtomobilini qulay to‘lovlar bilan rasmiy daromadli yoki daromadsiz tarzda xarid qiling!",
+      ru: "Новая D2 STYLE PLUS — в кредит на удобных условиях для всех, с официальным доходом или без!",
     },
     image:
-      "https://www.autostrada.uz/wp-content/uploads/2020/10/photo_2020-10-05_18-54-27.jpg",
+      "https://frankfurt.apollo.olxcdn.com/v1/files/irkqt0010u1z2-UZ/image",
     content: {
-      uz: "<p><strong>Chevrolet Spark</strong> va <strong>Nexia</strong> modellari uchun <span style='color:green;'>10% gacha chegirma</span>!</p><p>Yozning issiq kunlarida avtomobil xarid qilish uchun ayni vaqt!</p>",
-      ru: "<p><strong>Chevrolet Spark</strong> и <strong>Nexia</strong> — <span style='color:green;'>скидка до 10%</span> этим летом!</p><p>Лето — лучшее время для покупки машины!</p>",
-    },
-  },
-  {
-    id: 2,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Rassrochka 0%", ru: "Рассрочка 0%" },
-    description: {
-      uz: "Cobalt va Gentra uchun foizsiz to‘lov imkoniyati!",
-      ru: "Беспроцентная рассрочка на Cobalt и Gentra!",
-    },
-    image:
-      "https://www.autostrada.uz/wp-content/uploads/2018/04/Gentra-vs-Cobalt.jpg.webp",
-    content: {
-      uz: "<p><strong>Cobalt</strong> va <strong>Gentra</strong> xarid qilganlarga <span style='color:blue;'>12 oygacha 0% to‘lov</span> imkoniyati!</p><p>Banklarsiz va ortiqcha hujjatlarsiz!</p>",
-      ru: "<p><strong>Cobalt</strong> и <strong>Gentra</strong> — <span style='color:blue;'>рассрочка до 12 месяцев без переплаты</span>!</p><p>Никаких банков и лишней бумажной волокиты!</p>",
-    },
-  },
-  {
-    id: 3,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Qishgi tayyorgarlik", ru: "Подготовься к зиме" },
-    description: {
-      uz: "Lacetti uchun bepul texnik ko‘rik va sovg‘alar!",
-      ru: "Бесплатная диагностика и подарки для владельцев Lacetti!",
-    },
-    image: "https://a.d-cd.net/f57eae6s-960.jpg",
-    content: {
-      uz: "<p><strong>Lacetti</strong> egalari uchun <span style='color:#d35400;'>bepul texnik ko‘rik</span>!</p><p>Qishda xavfsiz yurish uchun mashinangizni tayyorlab oling. Sovg‘alar va bonuslar kutmoqda!</p>",
-      ru: "<p><strong>Lacetti</strong> — <span style='color:#d35400;'>бесплатная диагностика</span> перед зимой!</p><p>Готовь машину к холодам и получи приятные бонусы!</p>",
+      uz: `
+        <p><strong>D2 STYLE PLUS</strong> avtomobili uchun <span style="color:#d35400;">kredit shartlari</span> bilan tanishing:</p>
+        <p>Rasmiy daromadga ega bo‘lganlar va daromadsiz mijozlar uchun <strong>turli imkoniyatlar</strong> mavjud!</p>
+        <div style="overflow-x: auto; width: 100%;">
+        <table style="border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:14px;margin-top:1rem;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Kredit muddati (oy)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Boshlang‘ich to‘lov (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Boshlang‘ich summa</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Rasmiy daromadlilar (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Oylik to‘lov</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Daromadsiz mijozlar (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Oylik to‘lov</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">22</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">11%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 946 746</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 099 819</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 131 044</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 083 127</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">4%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 104 632</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">58 159 200</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 743 754</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">7%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 765 709</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 688 144</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 286 216</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 319 034</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 541 206</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 563 861</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">70%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">67 852 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 237 582</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 922 956</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 957 884</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">12%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 280 219</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 300 221</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 017 576</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 686 307</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 723 035</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 127 719</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 153 063</td></tr>
+  </tbody>
+  
+</table>
+      </div>
+        <p><strong>Izoh:</strong> Kredit foiz stavkalari mijozning daromad holatiga qarab farq qiladi. Dastlabki to‘lov qancha yuqori bo‘lsa, oylik to‘lov shuncha kam bo‘ladi.</p>
+        <p>Qo‘shimcha ma’lumot olish uchun biz bilan bog‘laning yoki ofisimizga tashrif buyuring.</p>
+      `,
+      ru: `
+        <p><strong>D2 STYLE PLUS</strong> — условия <span style="color:#d35400;">автокредита от Asaka Bank</span>:</p>
+        <p>Для клиентов с официальным доходом и без него действуют <strong>разные удобные условия</strong>!</p>
+        <div style="overflow-x: auto; width: 100%;">
+        <table style="border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:14px;margin-top:1rem;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Срок (мес.)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Первонач. взнос (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Сумма взноса</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">С офиц. доходом (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Ежемес. платёж</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Без дохода (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Ежемес. платёж</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">22</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">11%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 946 746</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 099 819</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 131 044</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 083 127</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">4%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 104 632</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">58 159 200</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 743 754</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">7%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 765 709</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 688 144</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 286 216</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 319 034</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 541 206</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 563 861</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">70%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">67 852 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 237 582</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 922 956</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 957 884</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">12%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 280 219</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 300 221</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 017 576</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 686 307</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 723 035</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 127 719</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 153 063</td></tr>
+  </tbody>
+  </table>
+  </div>
+
+        <p><strong>Примечание:</strong> Чем больше первоначальный взнос, тем ниже ежемесячный платёж. Уточняйте детали в отделении или по телефону.</p>
+      `,
     },
   },
 ];
