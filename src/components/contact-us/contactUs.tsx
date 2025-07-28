@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Controller } from "@/helpers/contain";
 import { Button } from "../ui/button";
+import { managersList } from "@/data/data";
 
 export function ContactUs() {
   const { t } = useTranslation();
@@ -27,15 +28,17 @@ export function ContactUs() {
         <h1 className="font-bold text-gray-900 text-xl md:text-2xl lg:text-3xl xl:text-4xl border-b-1 border-b-gray-500 pb-7">
           {t("feedback")}
         </h1>
+
+        {/* contact */}
         <div className="max-w-[600px] mx-auto my-10 flex flex-col gap-5">
           <p className="text-lg font-medium">
-            {t("hot-line")} Avto-Layner <br />{" "}
-            <a href="tel:1333" className="font-bold">
-              1333
+            {t("hot-line")} Avto-Layner Xorazm <br />
+            <a href="tel:622260336" className="font-bold block hover:underline">
+              +998 (62) 226-03-36
             </a>
           </p>
 
-          <p className="text-md font-normal border-t-1 border-t-gray-400 mt-2- pt-5">
+          <p className="text-xs sm:text-[16px] font-normal border-t-1 border-t-gray-400 mt-2- pt-5">
             {t("contact-info")}
           </p>
 
@@ -65,6 +68,29 @@ export function ContactUs() {
               {t("send")}
             </Button>
           </div>
+        </div>
+
+        {/* meneger */}
+        <h1 className="font-bold text-gray-900 text-xl md:text-2xl lg:text-3xl xl:text-4xl border-b-1 border-b-gray-500 pb-7">
+          {t("contact-meneger")}
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 my-10">
+          {managersList.map((el, i) => (
+            <div
+              key={i}
+              className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-5 border border-gray-200 dark:border-gray-800 transition hover:scale-[102%] hover:shadow-xl"
+            >
+              <h3 className="text-sm md:text-lg font-semibold text-gray-800 dark:text-white mb-1">
+                {el.fullName}
+              </h3>
+              <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
+                {el.position}
+              </p>
+              <p className="text-xs md:text-sm text-blue-600 dark:text-blue-400 font-medium mt-2">
+                {el.phone}
+              </p>
+            </div>
+          ))}
         </div>
       </Controller>
     </div>

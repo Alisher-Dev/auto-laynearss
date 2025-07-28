@@ -32,7 +32,7 @@ export function Carousels({ cars }: { cars: IModel[] }) {
               <img
                 src={item?.banner}
                 alt={`img-${index}`}
-                className="w-full min-h-[600px] max-h-screen object-cover rounded-md"
+                className="w-full min-h-[600px] max-h-screen xl:h-screen object-cover rounded-md"
               />
 
               <span className="absolute bottom-0 left-4 right-0 m-5 xl:m-10 min-h-[200px] bg-gray-800/20 backdrop-blur-md flex flex-col items-start justify-between p-4 rounded-xl">

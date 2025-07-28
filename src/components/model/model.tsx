@@ -13,7 +13,7 @@ export function Model() {
     <div className="mt-18 py-5">
       <Controller>
         <p className="font-medium text-xl lg:text-3xl text-start">
-          {t("all-models")} Avto-Layner
+          {t("all-models")} Avto-Layner Xorazm
         </p>
         <div
           className={cn(

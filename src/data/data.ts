@@ -1329,3 +1329,61 @@ export const specialOffers: ISpecialOffer[] = [
     },
   },
 ];
+
+// managers list
+export const managersList = [
+  {
+    id: 1,
+    fullName: "AXMEDJANOV HURMATBEK RAXIMBAYEVICH",
+    position: "Savdo bo'limi boshlig'i",
+    phone: "+998 (99) 506-8934",
+  },
+  {
+    id: 2,
+    fullName: "JUMABOYEV HAMZA MANSUR O‘G‘LI",
+    position: "Marketing xodimi",
+    phone: "+998 (91) 912-8983",
+  },
+  {
+    id: 3,
+    fullName: "MADAMINOV DILSHOD XUDAYNAZAROVICH",
+    position: "Marketing xodimi",
+    phone: "+998 (93) 281-6666",
+  },
+  {
+    id: 4,
+    fullName: "XUSAINOV KAMOLADDIN ILXOMOVICH",
+    position: "Marketing xodimi",
+    phone: "+998 (99) 014-6474",
+  },
+  {
+    id: 5,
+    fullName: "ABDULLAYEV ISLOMBEK SATIMOVICH",
+    position: "Marketing xodimi",
+    phone: "+998 (91) 434-1347",
+  },
+  {
+    id: 6,
+    fullName: "YUSUPOV SHAXBOZ USMONBEK O'G'LI",
+    position: "Marketing xodimi",
+    phone: "+998 (97) 525-5757",
+  },
+  {
+    id: 7,
+    fullName: "MATCHANOV XUSHNUD ABDURASHIDOVICH",
+    position: "Savdo agenti",
+    phone: "+998 (91) 276-6777",
+  },
+  {
+    id: 8,
+    fullName: "ATABAEV BEKZOD KAMILOVICH",
+    position: "Savdo maslaxatchisi",
+    phone: "+998 (91) 868-7974",
+  },
+  {
+    id: 9,
+    fullName: "ARTIQOV DAVLATNAZAR SHAVKATOVICH",
+    position: "Savdo agenti",
+    phone: "+998 (99) 505-6062",
+  },
+];

@@ -66,20 +66,35 @@ export function DrowMenu({ isActive }: { isActive: boolean }) {
               }
               <div className="flex flex-col justify-between">
                 <p>
-                  {t("hot-line")} Avto-Layner <br />{" "}
-                  <a href="tel:1333" className="font-bold">
-                    1333
+                  {t("hot-line")} Avto-Layner Xorazm <br />
+                  <a
+                    href="tel:622260336"
+                    className="text-sm font-bold block mt-2 hover:underline"
+                  >
+                    +998 (62) 226-03-36
                   </a>
-                </p>
-                <p>
-                  {t("information-line")} Avto-Layner <br />{" "}
-                  <a href="tel:1333" className="font-bold">
-                    +998 71 215-70-07
+                  <a
+                    href="tel:622260337"
+                    className="text-sm font-bold block hover:underline"
+                  >
+                    +998 (62) 226-03-37
+                  </a>
+                  <a
+                    href="tel:622260338"
+                    className="text-sm font-bold block hover:underline"
+                  >
+                    +998 (62) 226-03-38
+                  </a>
+                  <a
+                    href="tel:622260334"
+                    className="text-sm font-bold block hover:underline"
+                  >
+                    +998 (62) 226-03-34
                   </a>
                 </p>
                 <span>
-                  <p>Avto-Layner {t("in-networks")}</p>
-                  <span className="flex items-center gap-3">
+                  <p>Avto-Layner Xorazm {t("in-networks")}</p>
+                  <span className="flex items-center gap-3 mt-3">
                     <a href="https://instagram.com" target="_blank">
                       <img
                         src={instagramIcon}

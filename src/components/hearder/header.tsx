@@ -67,7 +67,7 @@ export function Header() {
         </span>
         {/* <img src="" alt="icon" /> */}
         <Link to="/">
-          <p>Avto-Layner</p>
+          <p>Avto-Layner Xorazm</p>
         </Link>
         <span className="flex items-center justify-end xl:w-[35%] gap-2">
           <span className="hidden xl:flex gap-2">

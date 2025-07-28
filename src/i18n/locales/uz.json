@@ -9,8 +9,8 @@
   "usz": "so'm",
   "all-models": "Barcha modellar",
   "more-in-models": "Model haqida batafsil",
-  "footer-title": "Veb-saytda joylashgan Avto-Layner brendi mahsulotlari narxlari haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan. Ko'rsatilgan narxlar Avto-Layner dilerlarining haqiqiy narxlaridan farq qilishi mumkin. Avto-Layner mahsulotlarining joriy narxlari haqida batafsil ma'lumot olish uchun Avto-Layner dilerlariga murojaat qiling. Avto-Layner brendining har qanday mahsulotini sotib olish individual oldi-sotdi shartnomasi shartlariga muvofiq amalga oshiriladi. Taqdim etilgan avtomobilning tasvirlari sotilganidan farq qilishi mumkin.",
-  "footer-title-two": "“Roodell” MChJ O‘zbekiston Respublikasida O‘zbekiston Respublikasi qonunchiligiga muvofiq o‘z faoliyatini olib boradi. Sotilgan tovarlarni O‘zbekiston Respublikasida olish mumkin. O‘zbekiston Respublikasidan tashqarida joylashgan subyektlarning iste’molchi xatti-harakatlari monitoringi o‘tkazilmaydi. Tegishli modellar va konfiguratsiyalar hamda ularning mavjudligi, narxlari, mumkin bo'lgan imtiyozlari va sotib olish shartlari haqidagi ma'lumotlarni O'zbekiston Respublikasidagi Avto-Layner dilerlaridan olishingiz mumkin. Mahsulot sertifikatlangan. Bu ommaviy taklif emas.",
+  "footer-title": "Veb-saytda joylashgan Avto-Layner Xorazm brendi mahsulotlari narxlari haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan. Ko'rsatilgan narxlar Avto-Layner Xorazm dilerlarining haqiqiy narxlaridan farq qilishi mumkin. Avto-Layner Xorazm mahsulotlarining joriy narxlari haqida batafsil ma'lumot olish uchun Avto-Layner Xorazm dilerlariga murojaat qiling. Avto-Layner Xorazm brendining har qanday mahsulotini sotib olish individual oldi-sotdi shartnomasi shartlariga muvofiq amalga oshiriladi. Taqdim etilgan avtomobilning tasvirlari sotilganidan farq qilishi mumkin.",
+  "footer-title-two": "“Roodell” MChJ O‘zbekiston Respublikasida O‘zbekiston Respublikasi qonunchiligiga muvofiq o‘z faoliyatini olib boradi. Sotilgan tovarlarni O‘zbekiston Respublikasida olish mumkin. O‘zbekiston Respublikasidan tashqarida joylashgan subyektlarning iste’molchi xatti-harakatlari monitoringi o‘tkazilmaydi. Tegishli modellar va konfiguratsiyalar hamda ularning mavjudligi, narxlari, mumkin bo'lgan imtiyozlari va sotib olish shartlari haqidagi ma'lumotlarni O'zbekiston Respublikasidagi Avto-Layner Xorazm dilerlaridan olishingiz mumkin. Mahsulot sertifikatlangan. Bu ommaviy taklif emas.",
   "feedback": "Fikr-mulohaza",
   "color": "rang:",
   "configurations": "Konfiguratsiyalar",
@@ -29,6 +29,7 @@
   "success": "muvaffaqiyatli yuborildi",
   "failed": "xabar yuborishda xato",
   "send": "Yuborish",
-  "send-info": "Avtomobillar mavjudligi haqida batafsil ma’lumot olish uchun Avto-Layner’ning O‘zbekistondagi rasmiy dilerlik markazlariga murojaat qiling.",
-  "location": "Avto-Layner rasmiy dileri"
+  "send-info": "Avtomobillar mavjudligi haqida batafsil ma’lumot olish uchun Avto-Layner Xorazm’ning O‘zbekistondagi rasmiy dilerlik markazlariga murojaat qiling.",
+  "location": "Avto-Layner Xorazm rasmiy dileri",
+  "contact-meneger": "Menejerlarning kontaktlari"
 }

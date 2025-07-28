@@ -37,7 +37,7 @@ export function CarouselAvto({ cars }: { cars: IModel[] }) {
     <div className="bg-gray-100 py-14">
       <Controller>
         <p className="font-bold text-2xl lg:text-4xl text-center">
-          {t("models")} Avto-Layner
+          {t("models")} Avto-Layner Xorazm
         </p>
         <div className="w-full my-5">
           <Carousel
