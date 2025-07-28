@@ -909,13 +909,13 @@ export const allVariants: IVariants[] = [
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     modelId: 8,
-    title: { uz: "DLX", ru: "DLX" },
+    title: { uz: "D2 STYLE  PLUS", ru: "D2 STYLE  PLUS" },
     description: {
       uz: "7 o'rinli yo'lovchi versiyasi",
       ru: "Пассажирская версия на 7 мест",
     },
     discount: 0,
-    price: 93000000,
+    price: 96932000,
     values: [
       allValues[45],
       allValues[46],
@@ -1285,47 +1285,98 @@ export const specialOffers: ISpecialOffer[] = [
     id: 1,
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
-    name: { uz: "Yozgi chegirma", ru: "Летняя скидка" },
+    name: {
+      uz: "D2 STYLE PLUS kredit dasturi",
+      ru: "Кредитная программа на D2 STYLE PLUS",
+    },
     description: {
-      uz: "Yoz mavsumida Spark va Nexia uchun maxsus narxlar!",
-      ru: "Специальные цены на Spark и Nexia этим летом!",
+      uz: "Yangi D2 STYLE PLUS avtomobilini qulay to‘lovlar bilan rasmiy daromadli yoki daromadsiz tarzda xarid qiling!",
+      ru: "Новая D2 STYLE PLUS — в кредит на удобных условиях для всех, с официальным доходом или без!",
     },
     image:
-      "https://www.autostrada.uz/wp-content/uploads/2020/10/photo_2020-10-05_18-54-27.jpg",
+      "https://frankfurt.apollo.olxcdn.com/v1/files/irkqt0010u1z2-UZ/image",
     content: {
-      uz: "<p><strong>Chevrolet Spark</strong> va <strong>Nexia</strong> modellari uchun <span style='color:green;'>10% gacha chegirma</span>!</p><p>Yozning issiq kunlarida avtomobil xarid qilish uchun ayni vaqt!</p>",
-      ru: "<p><strong>Chevrolet Spark</strong> и <strong>Nexia</strong> — <span style='color:green;'>скидка до 10%</span> этим летом!</p><p>Лето — лучшее время для покупки машины!</p>",
-    },
-  },
-  {
-    id: 2,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Rassrochka 0%", ru: "Рассрочка 0%" },
-    description: {
-      uz: "Cobalt va Gentra uchun foizsiz to‘lov imkoniyati!",
-      ru: "Беспроцентная рассрочка на Cobalt и Gentra!",
-    },
-    image:
-      "https://www.autostrada.uz/wp-content/uploads/2018/04/Gentra-vs-Cobalt.jpg.webp",
-    content: {
-      uz: "<p><strong>Cobalt</strong> va <strong>Gentra</strong> xarid qilganlarga <span style='color:blue;'>12 oygacha 0% to‘lov</span> imkoniyati!</p><p>Banklarsiz va ortiqcha hujjatlarsiz!</p>",
-      ru: "<p><strong>Cobalt</strong> и <strong>Gentra</strong> — <span style='color:blue;'>рассрочка до 12 месяцев без переплаты</span>!</p><p>Никаких банков и лишней бумажной волокиты!</p>",
-    },
-  },
-  {
-    id: 3,
-    createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    name: { uz: "Qishgi tayyorgarlik", ru: "Подготовься к зиме" },
-    description: {
-      uz: "Lacetti uchun bepul texnik ko‘rik va sovg‘alar!",
-      ru: "Бесплатная диагностика и подарки для владельцев Lacetti!",
-    },
-    image: "https://a.d-cd.net/f57eae6s-960.jpg",
-    content: {
-      uz: "<p><strong>Lacetti</strong> egalari uchun <span style='color:#d35400;'>bepul texnik ko‘rik</span>!</p><p>Qishda xavfsiz yurish uchun mashinangizni tayyorlab oling. Sovg‘alar va bonuslar kutmoqda!</p>",
-      ru: "<p><strong>Lacetti</strong> — <span style='color:#d35400;'>бесплатная диагностика</span> перед зимой!</p><p>Готовь машину к холодам и получи приятные бонусы!</p>",
+      uz: `
+        <p><strong>D2 STYLE PLUS</strong> avtomobili uchun <span style="color:#d35400;">kredit shartlari</span> bilan tanishing:</p>
+        <p>Rasmiy daromadga ega bo‘lganlar va daromadsiz mijozlar uchun <strong>turli imkoniyatlar</strong> mavjud!</p>
+        <div style="overflow-x: auto; width: 100%;">
+        <table style="border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:14px;margin-top:1rem;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Kredit muddati (oy)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Boshlang‘ich to‘lov (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Boshlang‘ich summa</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Rasmiy daromadlilar (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Oylik to‘lov</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Daromadsiz mijozlar (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Oylik to‘lov</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">22</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">11%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 946 746</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 099 819</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 131 044</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 083 127</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">4%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 104 632</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">58 159 200</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 743 754</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">7%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 765 709</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 688 144</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 286 216</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 319 034</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 541 206</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 563 861</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">70%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">67 852 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 237 582</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 922 956</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 957 884</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">12%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 280 219</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 300 221</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 017 576</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 686 307</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 723 035</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 127 719</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 153 063</td></tr>
+  </tbody>
+  
+</table>
+      </div>
+        <p><strong>Izoh:</strong> Kredit foiz stavkalari mijozning daromad holatiga qarab farq qiladi. Dastlabki to‘lov qancha yuqori bo‘lsa, oylik to‘lov shuncha kam bo‘ladi.</p>
+        <p>Qo‘shimcha ma’lumot olish uchun biz bilan bog‘laning yoki ofisimizga tashrif buyuring.</p>
+      `,
+      ru: `
+        <p><strong>D2 STYLE PLUS</strong> — условия <span style="color:#d35400;">автокредита от Asaka Bank</span>:</p>
+        <p>Для клиентов с официальным доходом и без него действуют <strong>разные удобные условия</strong>!</p>
+        <div style="overflow-x: auto; width: 100%;">
+        <table style="border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:14px;margin-top:1rem;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Срок (мес.)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Первонач. взнос (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Сумма взноса</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">С офиц. доходом (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Ежемес. платёж</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Без дохода (%)</th>
+      <th style="border:1px solid #ccc;padding:8px 10px;text-align:center;background:#f2f2f2;font-weight:bold;">Ежемес. платёж</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">5 219 415</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">22</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 203 000</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">11%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 946 746</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 099 819</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3 131 044</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">3%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 083 127</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">4%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 104 632</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">24</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">58 159 200</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">0%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 615 533</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 743 754</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">7%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 765 709</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 688 144</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 286 216</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 319 034</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">9%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 541 206</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">10%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 563 861</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">36</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">70%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">67 852 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">6%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">807 767</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 237 582</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 922 956</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">17%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 957 884</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">12%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 280 219</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">13%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 300 221</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">20%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19 386 400</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">19%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">2 017 576</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">-</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">30%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">29 079 600</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 686 307</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">18%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 723 035</td></tr>
+    <tr><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">60</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">50%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">48 466 000</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">14%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 127 719</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">15%</td><td style="border:1px solid #ccc;padding:8px 10px;text-align:center;">1 153 063</td></tr>
+  </tbody>
+  </table>
+  </div>
+
+        <p><strong>Примечание:</strong> Чем больше первоначальный взнос, тем ниже ежемесячный платёж. Уточняйте детали в отделении или по телефону.</p>
+      `,
     },
   },
 ];
