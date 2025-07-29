@@ -22,8 +22,7 @@ export function BannerOffer({ offer }: { offer: ISpecialOffer }) {
                 {offer.name[i18n.language]}
               </p>
               <p className="text-gray-100 text-sm xl:text-lg sm:max-w-[400px] xl:max-w-[600px] mt-2">
-                {offer.description[i18n.language].slice(0, 90)}{" "}
-                {offer.description[i18n.language].length > 90 && "..."}
+                {offer.description[i18n.language]}
               </p>
               <Button
                 variant="outline"

@@ -10,22 +10,22 @@ import { Header } from "./hearder/header";
 import { Toaster } from "./ui/sonner";
 
 export function App() {
-	const location = useLocation();
+  const location = useLocation();
 
-	useEffect(() => {
-		window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-	}, [location.pathname]);
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [location.pathname]);
 
-	return (
-		<>
-			<Header />
-			<Toaster />
-			<Routes>
-				{route.map((el, index) => (
-					<Route key={index} {...el} />
-				))}
-			</Routes>
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Header />
+      <Toaster />
+      <Routes>
+        {route.map((el, index) => (
+          <Route key={index} {...el} />
+        ))}
+      </Routes>
+      <Footer />
+    </>
+  );
 }

@@ -65,7 +65,6 @@ export function Header() {
         <span className="p-2 w-20 xl:hidden">
           <SheetMenu />
         </span>
-        {/* <img src="" alt="icon" /> */}
         <Link to="/">
           <p>Avto-Layner Xorazm</p>
         </Link>
@@ -82,7 +81,7 @@ export function Header() {
             defaultValue={i18n.language ?? "uz"}
             onValueChange={(item) => i18n.changeLanguage(item ?? "uz")}
           >
-            <SelectTrigger className="w-[90px]">
+            <SelectTrigger>
               <SelectValue placeholder="language" />
             </SelectTrigger>
             <SelectContent>

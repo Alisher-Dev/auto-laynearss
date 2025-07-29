@@ -35,7 +35,7 @@ export function SpecialOfferCarousel() {
               {offers?.map((offer, index) => (
                 <CarouselItem
                   key={index}
-                  className="basis-1/1 sm:basis-1/3 md:basis-1/4 xl:basis-1/5"
+                  className="basis-1/1 sm:basis-1/2 md:basis-1/3 xl:basis-1/4"
                   onClick={() => navigate(`/special-offer/${offer?.id}`)}
                 >
                   <div
@@ -46,11 +46,11 @@ export function SpecialOfferCarousel() {
                     <img
                       src={offer?.image}
                       alt={`car-${index}`}
-                      className="w-full h-[200px] object-contain"
+                      className="w-full aspect-video object-cover rounded-2xl"
                     />
                     <p className="font-medium text-gray-800 text-center mt-5">
-                      {offer?.name[i18n.language]?.slice(0, 25) +
-                        (offer?.name[i18n.language]?.length > 25 ? "..." : "")}
+                      {offer?.name[i18n.language]?.slice(0, 50) +
+                        (offer?.name[i18n.language]?.length > 50 ? "..." : "")}
                     </p>
                     <p className="text-sm font-sans text-gray-600 text-center">
                       {offer?.description[i18n.language]?.slice(0, 60) +

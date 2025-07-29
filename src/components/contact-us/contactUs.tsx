@@ -86,9 +86,12 @@ export function ContactUs() {
               <p className="text-xs md:text-sm text-gray-500 dark:text-gray-400">
                 {el.position}
               </p>
-              <p className="text-xs md:text-sm text-blue-600 dark:text-blue-400 font-medium mt-2">
+              <a
+                href={`tel:${el.phone.replace(/[\+\(\)\s-]/gi, "")}`}
+                className="text-xs md:text-sm text-blue-600 dark:text-blue-400 font-medium mt-2"
+              >
                 {el.phone}
-              </p>
+              </a>
             </div>
           ))}
         </div>

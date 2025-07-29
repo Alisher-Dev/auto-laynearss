@@ -8,8 +8,8 @@ export function Home() {
   return (
     <>
       <Carousels cars={cars} />
-      <CarouselAvto cars={cars} />
       <SpecialOfferCarousel />
+      <CarouselAvto cars={cars} />
     </>
   );
 }
