@@ -697,13 +697,13 @@ export const allVariants: IVariants[] = [
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     modelId: 6,
-    title: { uz: "LS AT", ru: "LS AT" },
+    title: { uz: "TRK LS PLUS", ru: "TRK LS PLUS" },
     description: {
       uz: "Boshlang'ich krossover komplektatsiyasi",
       ru: "Базовая комплектация кроссовера",
     },
     discount: 0,
-    price: 225000000,
+    price: 220951360,
     values: [
       allValues[33],
       allValues[34],
@@ -717,13 +717,13 @@ export const allVariants: IVariants[] = [
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     modelId: 6,
-    title: { uz: "Redline AT", ru: "Redline AT" },
+    title: { uz: "TRK REDLINE", ru: "TRK REDLINE" },
     description: {
       uz: "Sport uslubidagi shahar krossoveri",
       ru: "Городской кроссовер в спортивном стиле",
     },
     discount: 0,
-    price: 285000000,
+    price: 282474080,
     values: [
       allValues[33],
       allValues[34],
